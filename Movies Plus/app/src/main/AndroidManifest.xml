@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.curiousdev.moviesdiscover">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.TvShowsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.MoviesActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.SimilarTvshowActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.ReviewsActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_publisher_code" />
+
+        <activity android:name=".Activities.SimilarMoviesActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.PersonDetails"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.MovieDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.TvShowDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SearchActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.FavGenres"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.FragmentsHost"
+            android:windowSoftInputMode="adjustNothing"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".Activities.WelcomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SplashScreen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
