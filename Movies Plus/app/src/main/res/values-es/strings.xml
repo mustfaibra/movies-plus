@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Películas plus</string>
+    <string name="start_app">iniciar la aplicación</string>
+
+    <!--    navigation drawer items titles-->
+    <string name="home">Inicio</string>
+    <string name="to_watch">Ver después</string>
+    <string name="watched">Ya visto</string>
+    <string name="fav">Favorito</string>
+    <string name="rate_us">Nos califica</string>
+    <string name="setting">Ajustes</string>
+    <string name="about">Acerca de</string>
+    <string name="explore">Explorar</string>
+    <!--    drawer titles end here-->
+
+    <string name="popular">Popular</string>
+    <string name="popular_network_info">Obtén toda la información sobre tus películas favoritas de diferentes cadenas de producción como Netflix, HBO, Marvel y todas las demás redes.</string>
+    <string name="bookmark_feature">Guarde las películas que quieres ver,ya ver o favoritas para acceder a ellas más rápido incluso cuando no hay Internet.</string>
+    <string name="rate_amdb">Toda la información, valoraciones y comentarios de la base de datos de películas o TMDb , lo que te permitirá obtener más información sobre la película.</string>
+    <string name="next">Siguiente</string>
+    <string name="new_txt">Nueva</string>
+    <string name="upcoming">Próximo</string>
+    <string name="on_air">Al aire</string>
+    <string name="top_rated">Mas valorados</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <!--    recommendation page texts -->
+    <string name="explore_info">Elija las categorías que quieres ver</string>
+    <string name="filter_recommendation">Filtrar películas</string>
+
+    <!--    here is all possible errors's msgs-->
+    <string name="retry">Rever</string>
+    <string name="loading_more_failed">Cargando más fallido</string>
+
+    <string name="no_connection_header">Sin conexión a internet</string>
+    <string name="no_connection_txt">Asegúrese de estar conectado a internet </string>
+
+    <string name="server_timeout_error_header">tiempo de espera del servidor</string>
+    <string name="server_timeout_error_txt">Servidor no responde, inténtelo de nuevo</string>
+
+    <string name="unknown_error_header">Ocurrió un error desconocido</string>
+    <string name="unknown_error_txt">Ha ocurrido un error, por favor intente de nuevo</string>
+
+    <string name="no_result">No se han encontrado resultados</string>
+    <string name="no_search_yet">Sin búsqueda reciente</string>
+    <!--    error msgs end here -->
+
+    <string name="fav_genre">Géneros favoritos</string>
+    <string name="add_fav_genres">agregar géneros favoritos</string>
+
+    <string name="tv_shows">Tv </string>
+    <string name="movies">películas</string>
+    <string name="actors">Personas</string>
+
+    <!--    account fragment texts-->
+    <string name="email">Electronico correo</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">¿Se te olvidó tu contraseña?</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="don_t_have_an_account">No tienes una cuenta?</string>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="login_msg">Hola, ya ha pasado mucho tiempo, inicie sesión para ver nuestras últimas películas agregadas</string>
+
+    <string name="sign">Regístrate</string>
+    <string name="have_an_account">Ya tienes una cuenta?</string>
+    <string name="sign_up">Regístrate</string>
+    <string name="sign_msg">Hola, veo que eres nuevo aquí. Déjanos guiarte. Muchas películas te están esperando.</string>
+
+    <!--    movie detail activity-->
+    <string name="trailers">Tráiler</string>
+    <string name="genres">Géneros</string>
+    <string name="overview">Descripción</string>
+    <string name="overview_not_available">No hay descripción general disponible en español, pruebe en otro idioma.</string>
+    <string name="play_trailer">Ver Tráiler</string>
+    <string name="cast">Elencos</string>
+    <string name="release_year">Soltar en</string>
+    <string name="spoken_language">Idiomas hablada</string>
+    <string name="reviews">Reseñas</string>
+    <string name="see_all_reviews">Ver toda</string>
+    <string name="no_review_yet">Todavia no hay reseñas</string>
+    <string name="similar">Sugerencias que te quste</string>
+    <string name="see_all_vid">Ver todo</string>
+    <string name="add_to_watched">Agregar a vistas</string>
+    <string name="remove_from_watched">Eliminar de vistas</string>
+    <string name="add_to_watch_later">Agregar a ver mas tarde</string>
+    <string name="remove_from_watch_later">Eliminar de ver mas tarde</string>
+<!--    tv show detail , all movie detail string , add to it-->
+    <string name="similar_tv_show">Sugerencias que te quste</string>
+    <string name="no_similar_tv_show">No hay sugerencias encontrando !</string>
+    <string name="seasons">Temporadas</string>
+    <string name="episode">Episodio</string>
+    <!--    similar movies activity strings-->
+    <string name="no_similar_movies">No hay sugerencias encontrando !</string>
+
+
+    <!--  recommendations filtering layout strings-->
+    <string name="language">Idioma</string>
+    <string name="rate_at_least">Calificar al menos</string>
+    <string name="year">Ano</string>
+    <string name="filter_movies">Filterar</string>
+    <string name="cancel">Cancelar</string>
+    <!--    person details activity-->
+    <string name="biography">Biografía</string>
+    <string name="known_for">Conocido por</string>
+    <string name="participated">Participó en</string>
+    <string name="load_more">Descargar mas</string>
+    <!--    settting activity strings-->
+    <string name="image_quality">Calidad de la imagen</string>
+    <string-array name="quality_menu">
+        <item name="low">Bajo</item>
+        <item name="medium">Medio</item>
+        <item name="high">Mayor</item>
+        <item name="never">Nada</item>
+    </string-array>
+
+    <string-array name="quality_value">
+        <item name="low">w185</item>
+        <item name="medium">w500</item>
+        <item name="high">original</item>
+        <item name="never">none</item>
+    </string-array>
+
+    <string name="show_trailer_in_app">Mostrar el trailer en applicacion</string>
+    <!--    msgs to usser-->
+    <string name="no_fav_yet">Todavia no hay películas favoritas</string>
+    <string name="no_watched_yet">Todavia no hay películas vistas</string>
+    <string name="no_to_watch_yet">Todavia no hay películas a ver las tarde</string>
+
+    <!--    about activity strings-->
+    <string name="about_app">
+        <b>Películas plus</b> es una aplicación para obtener información sobre todas las películas, incluidas las que están por llegar o que se han reproducido recientemente en los cines y también
+         los antiguos, es una aplicación gratuita y siempre lo será. \nPuede obtener recomendaciones de películas en ciertos géneros y con filtros de búsqueda muy específicos
+         para obtener las películas que le gusta ver en su valioso tiempo, también puede guardar la película que vio, desea ver o incluso
+         márquelo como favorito para que pueda acceder a él rápidamente y sin necesidad de conexión a Internet. \nPara aquellos que tienen un ancho de banda de datos muy limitado, puede usar la función de esta aplicación, puede configurar <b> CALIDAD DE IMAGEN </b> en ajuste para que puedas
+         Explora todas las películas con poca conexión de datos y lo más rápido posible.
+         \nLamentamos mucho los anuncios, pero nos ayudan a mejorar esta aplicación y más funciones, ¡muchas gracias!
+    </string>
+
+    <string name="credits"><b>Atributos</b></string>
+
+    <string name="disclaimer">
+        Esta aplicación se basa en "La base de datos de películas" TMDb Api, ¡Gracias por el GRAN TRABAJO! \n Enlace a la base de datos:
+        https://www.themoviedb.org
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="clear_cache">Borrar datos guardados</string>
+    <string name="cleared">Datos guardados borrados con exito</string>
+    <string name="click_again">Haga clic de nuevo para salir</string>
+    <string name="contact_dev">Por favor contactenos si tiene algun problema</string>
+</resources>

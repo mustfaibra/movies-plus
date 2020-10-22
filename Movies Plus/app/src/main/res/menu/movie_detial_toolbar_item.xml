@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/heart"
+        android:id="@+id/movie_fav"
+        android:title="Favorite"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/movie_watched"
+        android:title="@string/add_to_watched"
+        />
+    <item
+        android:id="@+id/movie_to_watch"
+        android:title="@string/add_to_watch_later"
+        />
+
+</menu>

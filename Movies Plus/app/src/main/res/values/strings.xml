@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Movies Plus</string>
+    <string name="start_app">Start App</string>
+
+    <!--    navigation drawer items titles-->
+    <string name="home">Home</string>
+    <string name="to_watch">To watch</string>
+    <string name="watched">Watched</string>
+    <string name="fav">Favorite</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="explore">Explore</string>
+    <!--    drawer titles end here-->
+
+    <string name="popular">Popular</string>
+    <string name="popular_network_info">Get all info about movies and series from your popular network like Netflix,HBO,Marvel,etc..</string>
+    <string name="bookmark_feature">Save all the movies you watched,you want to watch,favorite so you can access it faster when needed</string>
+    <string name="rate_amdb">All rates are based on the famous database TMDb which allow you to get more precision info about what you want</string>
+    <string name="next">Next</string>
+    <string name="new_txt">New</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="on_air">Playing now</string>
+    <string name="top_rated">Top rated</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <!--    explore activity texts -->
+    <string name="explore_info">select a <b>GENRES</b> that you want to explore</string>
+    <string name="filter_recommendation">Filter Movies</string>
+
+    <string name="tmdb_api" translatable="false">72a9b81284508da3873c614c386c9f00</string>
+    <string name="admob_test_code" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_publisher_code" translatable="false">ca-app-pub-4639167441267911~4888636111</string>
+    <string name="between_activities_unitId" translatable="false">ca-app-pub-4639167441267911/1401829007</string>
+    <string name="home_banner_unit_id" translatable="false">ca-app-pub-4639167441267911/4775233274</string>
+
+    <!--    here is all possible errors's msgs-->
+    <string name="retry">Retry</string>
+    <string name="loading_more_failed">Loading more failed</string>
+
+    <string name="no_connection_header">Connection Error</string>
+    <string name="no_connection_txt">Make sure you are connected to internet</string>
+
+    <string name="server_timeout_error_header">Server Timeout</string>
+    <string name="server_timeout_error_txt">Server is not responding,Please try again</string>
+
+    <string name="unknown_error_header">Error Happened</string>
+    <string name="unknown_error_txt">Unknown error happened,please try again</string>
+
+    <string name="no_result">No results found</string>
+    <string name="no_search_yet">No recent search yet</string>
+    <!--    error msgs end here -->
+
+
+    <string name="fav_genre">Favorite Genres</string>
+    <string name="add_fav_genres">Add Favorite Genres</string>
+
+    <!--    search activity strings-->
+    <string name="tv_shows">Tv shows</string>
+    <string name="movies">Movies</string>
+    <string name="actors">People</string>
+
+    <!--    account fragment texts-->
+    <string name="email">Email</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account ?</string>
+    <string name="log_in">Log In</string>
+    <string name="login_msg">Welcome ,Where are you been! New movies are waiting</string>
+
+    <string name="sign">Sign Up</string>
+    <string name="have_an_account">Already Have An Account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_msg">Hello ,New here ! New movies are waiting</string>
+
+    <!--    movie detail activity-->
+    <string name="trailers">Trailers</string>
+    <string name="genres">Genres</string>
+    <string name="overview">Overview</string>
+    <string name="overview_not_available">No overview with this language yet,try another language .</string>
+    <string name="play_trailer">Watch Trailer</string>
+    <string name="cast">Cast</string>
+    <string name="release_year">Release Date</string>
+    <string name="spoken_language">Spoken Languages</string>
+    <string name="reviews">Reviews</string>
+    <string name="see_all_reviews">See all</string>
+    <string name="no_review_yet">No reviews yet </string>
+    <string name="similar">Suggestions you may like</string>
+    <string name="see_all_vid">See all</string>
+    <string name="add_to_watched">Add to watched</string>
+    <string name="remove_from_watched">Remove from watched</string>
+    <string name="add_to_watch_later">Add to watch later</string>
+    <string name="remove_from_watch_later">Remove from watch later</string>
+    <!--    tv show detail , all movie detail string , add to it-->
+    <string name="seasons">Seasons</string>
+    <string name="episode">Episode</string>
+    <string name="similar_tv_show">Suggestions you may like</string>
+    <string name="no_similar_tv_show">There are no suggestions found !</string>
+
+    <!--    similar movies activity strings-->
+    <string name="no_similar_movies">There are no suggestions found !</string>
+
+
+    <!--  explore filtering layout strings-->
+    <string name="language">Language</string>
+    <string name="rate_at_least">Rate at least</string>
+    <string name="year">Year</string>
+    <string name="filter_movies">Filter now</string>
+    <string name="cancel">Cancel</string>
+    <!--    person details activity-->
+    <string name="biography">Biography</string>
+    <string name="known_for">Known for</string>
+    <string name="participated">Participated In</string>
+    <string name="load_more">Load More</string>
+    <!--    settting activity strings-->
+    <string name="image_quality">Image Quality</string>
+    <string-array name="quality_menu">
+        <item name="low">Low</item>
+        <item name="medium">Medium</item>
+        <item name="high">High</item>
+        <item name="never">Never</item>
+    </string-array>
+
+    <string-array name="quality_value">
+        <item name="low">w185</item>
+        <item name="medium">w500</item>
+        <item name="high">original</item>
+        <item name="never">none</item>
+    </string-array>
+
+    <string name="show_trailer_in_app">Show trailer in app</string>
+    <string name="clear_cache">Clear saved data</string>
+    <string name="cleared">Saved data cleared successfully.</string>
+
+    <!--    msgs to usser-->
+    <string name="no_fav_yet">No favorite movies yet</string>
+    <string name="no_watched_yet">No watched movies yet</string>
+    <string name="no_to_watch_yet">There are no movies you want to watch yet</string>
+
+
+    <!--    about activity strings-->
+    <string name="about_app">
+        <b>Movies plus</b> is an app to get info about all movies including movies that are coming or that is recently played on cinemas and also the
+        old ones,its a free app and will always be . \nYou can get recommendation of movies in Explore to find certain genres and with very specified search filters
+        to get the movies that you like to watch in your precious time , you can also save the movie that you watched , you want to watch , or even
+        mark it as favorite so you can access it fast and with no internet connection needed .\nFor those who have a very limited data bandwidth you can use the feature of this app , You can set  <b>IMAGE QUALITY </b>in setting so you can
+        explore all movies with a little data connection and as fast as possible .
+        \nWe are very sorry about Ads,but it help us improving this app and more features, thank you a lot !
+    </string>
+
+    <string name="credits"><b>Attributes</b></string>
+
+    <string name="disclaimer">
+        This app is built on "The Movie Database" TMDb Api , Thank you for the GREAT WORK ! \n Link to the DataBase : https://www.themoviedb.org
+    </string>
+    <string name="contact_dev" >Please contact us if you have any problem</string>
+<!--    exit msg-->
+    <string name="click_again">Click again to exit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

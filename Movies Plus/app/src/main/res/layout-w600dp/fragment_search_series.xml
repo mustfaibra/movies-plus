@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/results_container"
+        android:visibility="visible"
+        android:paddingHorizontal="5dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/search_result_rec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:layoutAnimation="@anim/home_recycler_layout_animation"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:orientation="vertical"
+            app:spanCount="5"/>
+        <!--            place holder effects-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_loading"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/seacrching"
+            app:lottie_repeatCount="100"/>
+
+        <include
+            layout="@layout/no_result_found_layout"
+            />
+
+
+        <Button
+            android:id="@+id/filter_search_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filter Result"
+            android:enabled="false"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/small_margin"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_options_container"
+            android:visibility="gone"
+            android:layout_above="@+id/filter_search_result">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/small_margin">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/small_margin">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Year "/>
+                            <Spinner
+                                android:id="@+id/years_menu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"/>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                    <Button
+                        android:id="@+id/apply_filtering"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="@dimen/small_margin"
+                        android:text="Filter Movies"
+                        />
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/error_layout"
+        android:visibility="gone"
+        android:layout_below="@+id/search_toolbar"/>
+
+    <ProgressBar
+        android:id="@+id/loading_more"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

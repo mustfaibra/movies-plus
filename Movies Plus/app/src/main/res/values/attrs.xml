@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="spinnerStyle" format="reference"/>
+    <attr name="toolbarStyle" format="reference"/>
+    <attr name="textviewStyle" format="reference"/>
+    <attr name="backgroundColor" format="color"/>
+    <attr name="headLine" format="reference"/>
+    <attr name="subLine" format="reference" />
+    <attr name="superSubLine" format="reference" />
+
+</resources>

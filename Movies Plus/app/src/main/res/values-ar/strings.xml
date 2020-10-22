@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">موفيز بلص</string>
+    <string name="start_app">أبدا التطبيق</string>
+
+    <!--    navigation drawer items titles-->
+    <string name="home">الرئيسية</string>
+    <string name="to_watch">أرغب بمشاهدته</string>
+    <string name="watched">تمت مشاهدته</string>
+    <string name="fav">المفضلة</string>
+    <string name="rate_us">قم بتقييمنا</string>
+    <string name="setting">الإعدادات</string>
+    <string name="about">حول</string>
+    <string name="explore">استكشاف</string>
+    <!--    drawer titles end here-->
+
+    <string name="popular">الأكثر تفضيلا</string>
+    <string name="popular_network_info">أحصل على جميع المعلومات عن أفلامك المفضلة من شبكات إلانتاج المختلفة مثل نتفكلس , إتش بي أو , مارفل , وجميع الشبكات الأخرى</string>
+    <string name="bookmark_feature">قم بحفظ الأفلام التي تريد مشاهدتها أو التي شاهدتها أو المفضلة , لتصل إليها بشكل أسرع حتى عند عدم وجود الإنترنت .</string>
+    <string name="rate_amdb">كل المعلومات و التقييمات و التعليقات من قاعدة بيانات الفلم أو TMDb مما يمكنك من الحصول على معلومات أكثر دقة عن الفلم .</string>
+    <string name="next">التالي</string>
+    <string name="new_txt">الأحدث</string>
+    <string name="on_air">جارية</string>
+    <string name="top_rated">الأعلى تقييما</string>
+    <string name="upcoming">القادمة</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <!--    recommendation page texts -->
+    <string name="explore_info">التي تريد إستطلاعها <b>التصنيفات</b>أختر </string>
+    <string name="filter_recommendation">فلترة الأفلام </string>
+
+    <!--    here is all possible errors's msgs-->
+    <string name="retry">إعادة المحاولة</string>
+    <string name="loading_more_failed">فشل تحميل المزيد</string>
+
+    <string name="no_connection_header">خطأ في الإتصال</string>
+    <string name="no_connection_txt">تأكد من إتصالك بالإنترنت </string>
+
+    <string name="server_timeout_error_header">مشكلة في السيرفر</string>
+    <string name="server_timeout_error_txt">السيرفر لايستجيب , إعد المحاولة </string>
+
+    <string name="unknown_error_header">حدث خطأ ما</string>
+    <string name="unknown_error_txt">حدث خطأ ما , الرجاء إعادة المحاولة</string>
+
+    <string name="no_result">لم يتم إيجاد نتائج</string>
+    <string name="no_search_yet">لا يوجد بحث سابق</string>
+    <!--    error msgs end here -->
+
+    <string name="fav_genre">التصنيفات المفضلة</string>
+    <string name="add_fav_genres">أضف تصنيفات مفضلة</string>
+
+<!--    search activity strings-->
+    <string name="tv_shows">المسلسلات</string>
+    <string name="movies">الأفلام</string>
+    <string name="actors">الأشخاص</string>
+
+    <!--    account fragment texts-->
+    <string name="email">البريد الإلكتروني</string>
+    <string name="user_name">إسم المستخدم</string>
+    <string name="password">كلمة السر</string>
+    <string name="forgot_password">هل نسيت كلمة السر؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="don_t_have_an_account">ليس لديك حساب؟</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="login_msg">مرحبا , مر وقت طويل بالفعل , قم بتسجيل الدخول لرؤية آخر الأفلام المضافة</string>
+
+    <string name="sign">إنشاء حساب</string>
+    <string name="have_an_account">لديك حساب بالفعل؟</string>
+    <string name="sign_up">إنشاء حساب</string>
+    <string name="sign_msg">مرحبا , أرى أنك جديد هنا , دعنا نرشدك , الكثير من الأفلام بإنتظارك</string>
+
+    <!--    movie detail activity-->
+    <string name="trailers">العروض المختصرة</string>
+    <string name="genres">التصنيفات</string>
+    <string name="overview">نظرة عامة</string>
+    <string name="overview_not_available">لا يوجد حالياً باللغة العربية , جرب لغة أخرى .</string>
+    <string name="play_trailer">مشاهدة العرض</string>
+    <string name="cast">طاقم التمثيل</string>
+    <string name="release_year">تاريخ الإصدار</string>
+    <string name="spoken_language">اللفات المتحدث بها</string>
+    <string name="reviews">الأراء</string>
+    <string name="see_all_reviews">مشاهدة الكل</string>
+    <string name="no_review_yet">لا أراء بعد</string>
+    <string name="similar">إقتراحات يمكن أن تعجبك</string>
+    <string name="see_all_vid">مشاهدة الكل</string>
+    <string name="add_to_watched">إلى تمت مشاهدته </string>
+    <string name="remove_from_watched">إزالة من تمت مشاهدته</string>
+    <string name="add_to_watch_later">إضافة إلى أرغب بمشاهدته</string>
+    <string name="remove_from_watch_later">إزالة من أرغب بمشاهدته</string>
+    <!--    tv show detail , all movie detail string , add to it-->
+    <string name="similar_tv_show">إقتراحات يمكن أن تعجبك</string>
+    <string name="no_similar_tv_show">لم يتم إيجاد إقتراحات !</string>
+    <string name="seasons">المواسم</string>
+    <string name="episode">حلقة</string>
+
+    <!--    similar movies activity strings-->
+    <string name="no_similar_movies">لم يتم إيجاد إقتراحات !</string>
+
+
+    <!--  recommendations filtering layout strings-->
+    <string name="language">اللغة</string>
+    <string name="rate_at_least">التقييم على الأقل</string>
+    <string name="year">السنة</string>
+    <string name="filter_movies">فلترة الآن</string>
+    <string name="cancel">إلغاء</string>
+    <!--    person details activity-->
+    <string name="biography">نبذة</string>
+    <string name="known_for">مشهور لأجل</string>
+    <string name="participated">شارك في</string>
+    <string name="load_more">تحميل المزيد</string>
+    <!--    settting activity strings-->
+    <string name="image_quality">جودة الصورة</string>
+    <string-array name="quality_menu">
+        <item name="low">منخفضة</item>
+        <item name="medium">متوسطة</item>
+        <item name="high">مرتفعة</item>
+        <item name="never">أبداً</item>
+    </string-array>
+
+    <string-array name="quality_value">
+        <item name="low">w185</item>
+        <item name="medium">w500</item>
+        <item name="high">original</item>
+        <item name="never">none</item>
+    </string-array>
+
+    <string name="show_trailer_in_app">عرض العرض التشويقي داخل التطبيق</string>
+<!--    msgs to usser-->
+    <string name="no_fav_yet">لا توجد أفلام مفضلة بعد</string>
+    <string name="no_watched_yet">لا توجد أفلام تمت مشاهدتها بعد</string>
+    <string name="no_to_watch_yet">لا توجد أفلام ترغب في مشاهدتها بعد</string>
+
+    <!--    about activity strings-->
+    <string name="about_app">
+         موفيز بلص هو تطبيق للحصول على معلومات حول جميع الأفلام بما في ذلك الأفلام القادمة أو التي تم تشغيلها مؤخرًا في دور السينما وأيضًا
+         القديمة ، مجاني وسيظل كذلك دائمًا.\n يمكنك الحصول على توصيات لأفلام من أنواع معينة وباستخدام عوامل تصفية بحث محددة للغاية
+         للحصول على الأفلام التي تحب مشاهدتها في وقتك الثمين ، يمكنك أيضًا حفظ الفيلم الذي شاهدته ، أو تريد مشاهدته ، أو حتى
+         كمفضلة حتى تتمكن من الوصول إليها بسرعة وبدون الحاجة إلى اتصال بالإنترنت. \n بالنسبة لأولئك الذين لديهم اشتراك محدود للبيانات ، يمكنك استخدام ميزة هذا التطبيق ، يمكنك تعيين <b> جودة الصورة </b> في الاعدادات حتى تستطيع
+         استكشاف جميع الأفلام مع القليل من البيانات وبأسرع وقت ممكن.
+         \n نأسف جدًا للإعلانات ، لكنها تساعدنا في تحسين هذا التطبيق والمزيد من الميزات ، شكرًا جزيلاً لكم!
+    </string>
+
+    <string name="credits"><b>الفضل ينسب إلى</b></string>
+
+    <string name="disclaimer">
+        تم إنشاء هذا التطبيق باستخدام قاعدة بيانات الفيلم او TMDb , شكرا على العمل الرائع . رابط قاعدة البيانات :
+         https://www.themoviedb.org
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="clear_cache">مسح البيانات المحفوظة</string>
+    <string name="cleared">تم مسح البيانات المحفوظة بنجاح</string>
+    <string name="click_again">أضغط مرة أخرى للخروج</string>
+    <string name="contact_dev">الرجاء مراسلتنا اذا كانت لديك مشكلة</string>
+</resources>

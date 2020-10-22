@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="10dp"
+    android:id="@+id/parent_container"
+    android:background="@color/black">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:id="@+id/recommendation_swiper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recommendations_container"
+            android:visibility="visible">
+            <Button
+                android:id="@+id/filter_recommendation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_recommendation"
+                android:enabled="false"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_below="@+id/filter_recommendation"
+                android:id="@+id/recommendation_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                android:paddingBottom="10dp"
+                android:layoutAnimation="@anim/home_recycler_layout_animation"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                android:orientation="vertical"
+                app:spanCount="5"/>
+            <!--            place holder effects-->
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_loading"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:visibility="visible"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/loading_animation"
+                app:lottie_repeatMode="restart"
+                app:lottie_repeatCount="100"
+                app:lottie_colorFilter="@color/light_purple"/>
+
+            <include
+                layout="@layout/no_result_found_layout"
+                />
+            <include
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/filtering_option_layout"/>
+
+
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/error_layout"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/loading_more"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_fav_genres_btn"
+        android:text="@string/add_fav_genres"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:visibility="gone"
+        />
+</RelativeLayout>
