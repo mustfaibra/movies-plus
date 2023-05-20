@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.mustafa.moviesdiscover"
         minSdkVersion 23
-        targetSdkVersion 28
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -51,7 +51,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.0.1'
     implementation 'com.airbnb.android:lottie:3.4.2'
-    implementation 'io.paperdb:paperdb:2.7.1'
+    implementation 'io.github.pilgr:paperdb:2.7.2'
 
     //room database
 
